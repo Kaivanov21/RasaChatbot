@@ -1,0 +1,40 @@
+version: "3.1"
+
+rules:
+
+- rule: respond to FAQs
+  steps:
+  - intent: faq
+  - action: utter_faq
+
+- rule: respond to chitchat
+  steps:
+  - intent: chitchat
+  - action: utter_chitchat
+
+- rule: Handle out of scope questions
+  steps:
+  - intent: nlu_fallback
+  - action: action_default_fallback 
+
+- rule: Handle out of scope questions 2
+  steps:
+  - intent: out_of_scope_q
+  - action: action_default_fallback
+
+- rule: Activate Teacher Form
+  steps:
+      - intent: teacher_info_question
+      - action: teacher_info_form
+      - active_loop: teacher_info_form  
+
+- rule: Submit Teacher Form
+  condition:
+      - active_loop: teacher_info_form
+  steps:
+      - action: teacher_info_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: action_teacher_info  
+      - action: action_reset_slot

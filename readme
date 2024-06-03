@@ -1,0 +1,93 @@
+
+# Rasa Secretary Chatbot
+
+A simple Rasa chatbot that can answer frequently asked questions about CSD, provide contact information for a teacher by surname, and use ChatGPT API to answer out-of-scope questions. 
+
+## Prerequests
+
+Install python and check python version
+
+```bash
+  python --version
+```
+
+Install virtual environment
+
+```bash
+  python -m virtualenv venv
+```
+
+Activate virtual environment
+
+```bash
+  venv\Scripts\activate
+```
+Install Rasa
+
+```bash
+  pip rasa install
+```
+
+Check Rasa installation 
+
+```bash
+  rasa --version
+```
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Kaivanov21/RasaChatbot
+```
+
+Go to the project directory
+
+```bash
+  cd RasaChatbot
+```
+
+Run action server
+
+```bash
+  rasa run actions
+```
+
+Intercat with chatbot via command line
+
+```bash
+  rasa shell
+```
+Start rasa server (intercat with chatbot via website widget)
+
+```bash
+  rasa run -m models --enable-api --cors “*”
+```
+
+## Useful commands
+
+Train rasa model
+
+```bash
+  rasa train
+```
+
+Interact with chatbot via command line and to see what model extracts as intents and entities from text
+
+```bash
+  rasa shell nlu
+```
+
+Interactive learning session with chatbot via command line
+
+```bash
+  rasa interactive
+```
+
+Build and run images with Docker Compose
+
+```bash
+  docker-compose up --build
+```
+  

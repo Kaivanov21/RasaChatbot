@@ -1,0 +1,156 @@
+version: "3.1"
+
+intents:
+  - chitchat/greet
+  - chitchat/goodbye
+  - affirm
+  - deny
+  - chitchat/thanks
+  - chitchat/bot_question
+  - faq/certificate_question
+  - faq/record_question
+  - faq/website_question
+  - faq/email_question
+  - faq/phone_question
+  - faq/address_question
+  - faq/library_question
+  - faq/canteen_question
+  - faq/open_hours_question
+  - faq/student_guide_question
+  - faq/calendar_question
+  - faq/schedule_question
+  - faq/exam_schedule_question
+  - faq/course_registry_question
+  - faq/news_question
+  - faq/streams_question
+  - faq/internship_question
+  - faq/thesis_question
+  - teacher_info_question 
+  - out_of_scope_q
+  
+  
+responses:
+  utter_chitchat/greet:
+  - text: "Γεια σας ! Πως μπορώ να σας βοηθήσω;"
+
+  utter_chitchat/goodbye:
+  - text: "Καλή συνέχεια. Είμαι παντα ετοιμος να σας βοηθησω"
+
+  utter_chitchat/bot_question:
+  - text: "Είμαι SecretaryChatbot που παρέχει πληροφορίες σχετικά με το Τμήμα Πληροφορικής του ΑΠΘ"
+
+  utter_faq/certificate_question:
+  - text: "Μπορεις να πάρεις βεβαιωση σπουδων εδω: https://students.auth.gr/#/requests/list"
+
+  utter_faq/record_question:
+  - text: "Μπορεις να πάρεις αναλυτική βαθμολογία εδω: https://students.auth.gr/#/requests/list"
+
+  utter_chitchat/thanks:
+  - text: "Αμα εχετε ερωτησεις είμαι παντα ετοιμος να σας βοηθησω"
+
+  utter_faq/website_question:
+  - text: "Μπορειτε να βρειτε την ιστοσελιδα του τμηματος στην διευθυνση https://www.csd.auth.gr/"
+ 
+  utter_faq/email_question:
+  - text: "Το email της γραμματείας του Τμήματος Πληροφορικής ειναι info@csd.auth.gr"
+
+  utter_faq/phone_question:
+  - text: "Το τηλ της γραμματείας ειναι 2310-99-8420"
+
+  utter_faq/address_question:
+  - text: "Το Τμήμα Πληροφορικής διαθέτει εγκαταστάσεις τόσο στο κέντρο της πόλης, εντός της Πανεπιστημιούπολης του ΑΠΘ, όσο και στην Καλαμαριά.\n
+            Η διεύθυνση γραμματείας είναι:\n
+            Γραμματεία Τμήματος Πληροφορικής ΑΠΘ\n
+            Κτίριο Γραμματειών Σχολής Θετικών Επιστημών, Πανεπιστημιούπολη ΑΠΘ\n
+            54124 Θεσσαλονίκη\n
+            Oι εγκαταστάσεις του Tμήματος στην Καλαμαριά βρίσκονται στην Εθνικής Αντιστάσεως 16.\n
+            Περισσότερες πληροφορίες στην ιστοσελίδα του Τμήματος: https://www.csd.auth.gr/school/access/"
+
+  utter_faq/library_question:
+  - text: "Φοιτητικό αναγνωστήριο λειτουργει:  08.00-02.00 (μετά τα μεσάνυκτα)  Δευ-Κυρ, τηλεφωνο επικοινωνιας 2310 995354
+          Μπορείς να βρεις περισσοτερες πληροφοριες σχετικα με Βιβλιοθήκη εδω: https://www.lib.auth.gr/el/%CE%B5%CF%80%CE%B9%CE%BA%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%AF%CE%B1"
+
+  utter_faq/canteen_question:
+  - text: "Η διανομή του συσσιτίου πραγματοποιείται σύμφωνα με το παρακάτω ωράριο : 
+            Πρωινό : 8:30-10:00 / Μεσημεριανό : 12:00-16:00 / Δείπνο : 18:00-21:00
+            Μπορείς να βρεις περισσοτερες πληροφοριες σχετικα με Λεσχη εδω: https://www.auth.gr/weekly-menu/"
+
+  utter_faq/open_hours_question:
+  - text: "Η Γραμματεία εξυπηρετεί τις ώρες 08:30-15:30, κατά προτίμηση από απόσταση.\n
+            Σε περίπτωση που απαιτείται η αυτοπρόσωπη προσέλευση στη Γραμματεία,\n
+            αυτό γίνεται κατόπιν προγραμματισμένου ραντεβού, στις ώρες 11:00 – 12:30 (τηλ. 2310 998420, email: Info@csd.auth.gr )"
+
+  utter_faq/student_guide_question:
+  - text: "Μπορείς να βρεις πληροφορίες σχετικά με Οδηγο σπουδων εδω: https://www.csd.auth.gr/studies/undergraduate/study-guides/"
+
+  utter_faq/calendar_question:
+  - text: "Μπορείς να βρεις πληροφορίες σχετικά με Ακαδημαικο Ημερολογιο εδω: https://www.csd.auth.gr/news/calendar/"
+
+  utter_faq/schedule_question:
+  - text: "Μπορείς να βρεις πληροφορίες σχετικά με Προγραμμα μαθηματων εδω: https://www.csd.auth.gr/news/schedules/"
+
+  utter_faq/exam_schedule_question:
+  - text: "Μπορείς να βρεις πληροφορίες σχετικά με Προγραμμα εξετασεων εδω: https://www.csd.auth.gr/news/schedules/"
+
+  utter_faq/course_registry_question:
+  - text: "Μπορεις να κανεις Δηλωση μαθηματων εδω: https://students.auth.gr/#/registrations/courses/overview\n
+            Απο την ηλεκτρονικη γραμματεια students.auth -> Δηλωσεις -> Δηλωση μαθηματων.\n
+            Δηλωσεις μαθηματων γινονται καθε εξαμηνο (χειμερινο και εαρινο) τις ημερομηνιες συμφωνα με τις ανακοινωσεις του τμηματος.\n
+            Δεν χρειαζεται να γινει ξεχωριστη δηλωση για επαναλαπτικες εξετασεις Σεμπτεμβριου."
+
+  utter_faq/news_question:
+  - text: "Μπορείς να βρεις ανακοινωσεις το τμηματος εδω: https://www.csd.auth.gr/category/announcements/"
+
+  utter_faq/streams_question:
+  - text: "Μπορείς να βρεις πληροφορίες σχετικά με Ροες στον οδηγο σπουδων εδω: https://www.csd.auth.gr/studies/undergraduate/study-guides/
+            Οι προσφερόμενες ροές μαθημάτων είναι:\n
+            Α. Τεχνητή Νοημοσύνη\n
+            Β. Διαχείριση Δεδομένων και Ιστού\n
+            Γ. Τεχνολογίες Λογισμικού\n
+            Δ. Τεχνολογίες Μάθησης\n
+            Ε. Επιστημονική Υπολογιστική\n
+            ΣΤ. Δίκτυα Επικοινωνιών και Ασφάλεια Συστημάτων\n
+            Ζ. Υπολογιστικά και Επικοινωνιακά Συστήματα\n
+            Η. Ψηφιακά Μέσα – Υπολογιστική Νοημοσύνη\n
+            Θ. Ρομποτική-Αυτόνομα Συστήματα\n
+            Για τη λήψη του πτυχίου είναι υποχρεωτική η κατοχύρωση τουλάχιστον μιας (1) ροής μαθημάτων από τις ακόλουθες που προσφέρονται στο Τμήμα."
+
+  utter_faq/internship_question:
+  - text: "Μπορείς να βρεις πληροφορίες σχετικά με Πρακτικη Ασκηση εδω: https://www.csd.auth.gr/studies/undergraduate/praktiki-askisi/"
+
+  utter_faq/thesis_question:
+  - text: "Μπορείς να βρεις πληροφορίες σχετικά με την εκπόνηση Πτυχιακής εργασίας εδω: https://www.csd.auth.gr/studies/undergraduate/thesis-guide/"
+
+  utter_ask_teacher:
+  - text: "Δώσε το επώνυμο του καθηγητή."
+
+
+
+
+actions:
+  - action_teacher_info
+  - action_default_fallback
+  - action_reset_slot
+
+entities:
+  - facility_type
+  - streams_type
+  - teacher
+
+slots:
+  teacher:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: teacher
+
+forms:
+  teacher_info_form:
+    required_slots:
+    - teacher
+            
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

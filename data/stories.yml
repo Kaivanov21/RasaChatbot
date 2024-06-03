@@ -1,0 +1,16 @@
+version: "3.1"
+
+stories:
+
+  - story: Happy path to answer FAQ
+  steps:
+  - intent: chitchat/greet
+  - action: utter_chitchat/greet 
+  - intent: faq/phone_question
+  - action: utter_faq/phone_question
+  - intent: chitchat/thanks
+  - action: utter_chitchat/thanks
+  
+
+
+

@@ -1,0 +1,314 @@
+.secretary-chatbot-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.secretary-chatbot-secretary-chatbot {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.secretary-chatbot-page {
+  width: 100%;
+  margin-left: 5%;
+  height: 1153.984375px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.secretary-chatbot-header {
+  width: 974px;
+  height: 51px;
+  display: flex;
+  padding: 12px 40px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(229, 232, 234, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+  justify-content: center;
+}
+.secretary-chatbot-text {
+  color: rgba(17, 20, 22, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: 22.5px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.secretary-chatbot-container1 {
+  width: 1013px;
+  height: 1066.484375px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.secretary-chatbot-uppicture {
+  width: 928px;
+  height: 480px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/external/tq_be-tsqqoqf-9ps7-1000w.png");
+}
+.secretary-chatbot-text02 {
+  top: 174.5px;
+  left: 199px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: "Manrope";
+  font-weight: 800;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.secretary-chatbot-text03 {
+  top: 224px;
+  left: 245px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: ExtraBold;
+  text-align: center;
+  font-family: "Manrope";
+  font-weight: 800;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.secretary-chatbot-bottomcontainer {
+  width: 931px;
+  height: 554.484375px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.secretary-chatbot-text06 {
+  color: rgb(17, 20, 22);
+  width: 941px;
+  height: auto;
+  font-size: 36px;
+  align-self: center;
+  font-style: ExtraBold;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+  font-family: "Manrope";
+  font-weight: 800;
+  line-height: 45px;
+  font-stretch: normal;
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.secretary-chatbot-bottomcontainers {
+  gap: 12px;
+  width: 928px;
+  height: 301.484375px;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.secretary-chatbot-container3 {
+  gap: 12px;
+  top: 0px;
+  left: 0px;
+  width: 301px;
+  height: 301.484375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.secretary-chatbot-pic3 {
+  width: 301.328125px;
+  height: 169.484375px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background-size: cover;
+  background-image: url("public/external/tq_pfwpbrgovq-eu67-1500h.png");
+}
+.secretary-chatbot-text3 {
+  width: 301.328125px;
+  height: 120px;
+  display: flex;
+  padding: 0 0 12px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.secretary-chatbot-text07 {
+  color: rgba(17, 20, 22, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.secretary-chatbot-text09 {
+  color: rgba(99, 119, 135, 1);
+  width: 301px;
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.secretary-chatbot-container2 {
+  gap: 12px;
+  top: 0px;
+  left: 313px;
+  width: 301px;
+  height: 301.484375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.secretary-chatbot-pic2 {
+  width: 301.328125px;
+  height: 169.484375px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background-size: cover;
+  background-image: url("public/external/tq_rluvulvvi--cft9-1500h.png");
+}
+.secretary-chatbot-text2 {
+  width: 301.328125px;
+  height: 120px;
+  display: flex;
+  padding: 0 0 12px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.secretary-chatbot-text11 {
+  color: rgba(17, 20, 22, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.secretary-chatbot-text13 {
+  color: rgba(99, 119, 135, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.secretary-chatbot-container1 {
+  gap: 12px;
+  top: 0px;
+  left: 627px;
+  width: 301px;
+  height: 301.484375px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.secretary-chatbot-pic1 {
+  width: 301.34375px;
+  height: 169.5px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background-size: cover;
+  background-image: url("public/external/tq_9lyhcg-xmd-k9h-1500h.png");
+}
+.secretary-chatbot-text1 {
+  width: 301.34375px;
+  height: 99px;
+  display: flex;
+  padding: 0 0 12px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.secretary-chatbot-text15 {
+  color: rgba(17, 20, 22, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.secretary-chatbot-text17 {
+  color: rgba(99, 119, 135, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 21px;
+  font-stretch: normal;
+  text-decoration: none;
+}
